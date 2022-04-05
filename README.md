@@ -5,7 +5,7 @@
 
 1) Clone the repo
 ```bash
-git clone https://github.com/YisongZou/IDS721-Final-Project.git
+git@github.com:xzhnshng/IDS721-group-project.git
 ```
 2) Create & enter python virtual environment
 ```bash
