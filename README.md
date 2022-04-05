@@ -31,6 +31,14 @@ python main.py
 ```
 
 # Containerization
+```bash
+# create image
+docker build -t salary-predictor:latest .
+
+# create and run container
+docker run --rm -p 5000:5000 --name salary-predictor-app salary-predictor:latest
+```
+Now you can access service on http://127.0.0.1:5000/
 
 ## Set up on Cloud
 
