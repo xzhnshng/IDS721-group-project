@@ -7,6 +7,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 @app.route('/')
 def home():
+    print("hello")
     return render_template('index.html')
 
 @app.route('/predict',methods=['POST'])
@@ -25,4 +26,4 @@ def predict():
 
 if __name__ == "__main__":
     #app.run(host='127.0.0.1', port=8080, debug=True)
-    app.run()
+    app.run(debug=True)
