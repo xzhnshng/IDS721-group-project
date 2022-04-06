@@ -1,7 +1,7 @@
 # Simple Linear Regression
 
 '''
-This model predicts the salary of the employ based on experience using simple linear regression model.
+This model predicts the population of China based on experience using simple linear regression model.
 '''
 
 # Importing the libraries
@@ -13,7 +13,7 @@ import requests
 import json
 
 # Importing the dataset
-dataset = pd.read_csv('US_Gold_Medals.csv')
+dataset = pd.read_csv('china_population.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
 

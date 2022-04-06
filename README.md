@@ -1,6 +1,8 @@
 # IDS721 Group-Final-Project Salary Predictor
 
 
+
+
 ## How to Run the App
 
 1) Clone the repo
@@ -29,6 +31,8 @@ python model.py
 ```bash
 python main.py
 ```
+
+The dataset is from https://www.kaggle.com/datasets/anandhuh/population-data-china
 
 # Containerization
 ```bash
