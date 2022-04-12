@@ -40,7 +40,7 @@ The dataset is from https://www.kaggle.com/datasets/anandhuh/population-data-chi
 docker build -t salary-predictor:latest .
 
 # create and run container
-docker run --rm -p 5000:5000 --name salary-predictor-app salary-predictor:latest
+docker run --rm -p 5000:5000 --name population-predictor-app population-predictor:latest
 ```
 Now you can access service on http://127.0.0.1:5000/
 
