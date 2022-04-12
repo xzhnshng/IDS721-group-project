@@ -37,7 +37,7 @@ The dataset is from https://www.kaggle.com/datasets/anandhuh/population-data-chi
 # Containerization
 ```bash
 # create image
-docker build -t salary-predictor:latest .
+docker build -t population-predictor:latest .
 
 # create and run container
 docker run --rm -p 5000:5000 --name population-predictor-app population-predictor:latest
