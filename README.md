@@ -3,8 +3,7 @@
 In this project, we used regression model and imported dataset from kaggle to train it. We used Flask to build a light-weight web framework to predict the future population in China. And then we deploy our service in GCP and used locust to load test it.
 
 ## Architecture
-
-![Screen Shot 2022-04-12 at 9.53.13 PM](/Users/wangqishen/Desktop/Screen Shot 2022-04-12 at 9.53.13 PM.png)
+![Screen Shot 2022-04-12 at 9 53 13 PM](https://user-images.githubusercontent.com/71869002/163084727-7e4d9ab8-7c20-4d5a-9d19-6081c423fb43.png)
 
 
 ## How to Run the App
@@ -89,12 +88,14 @@ Now you can access service on http://127.0.0.1:5000/
    ```
 
    And you will need to name your service and select region you want to deploy. 
+<img width="887" alt="Screen Shot 2022-04-12 at 2 23 05 PM" src="https://user-images.githubusercontent.com/71869002/163084817-cecf6e5f-9804-45b1-a077-ea9eff47ab8e.png">
 
-   ![Screen Shot 2022-04-12 at 2.23.05 PM](/Users/wangqishen/Desktop/Screen Shot 2022-04-12 at 2.23.05 PM.png)
+   
 
    Lastly, you can see the service running on the given URL:
 
-   ![Screen Shot 2022-04-12 at 4.58.32 PM](/Users/wangqishen/Library/Application Support/typora-user-images/Screen Shot 2022-04-12 at 4.58.32 PM.png)
+ 
+![WechatIMG91](https://user-images.githubusercontent.com/71869002/163084859-aec9569c-3926-4355-a2f7-387b3c07037b.jpeg)
 
    
 
@@ -122,5 +123,9 @@ I used https://locust.io/ to start load testing for the flask project.
            self.client.post("/predict", {"Year":"2024"})
    ```
 
-3. Run "locust". Once you’ve started Locust, open up a browser and point it to [http://localhost:8089](http://localhost:8089/). You will be greeted with something like this:![Screen Shot 2022-04-12 at 5.23.16 PM](/Users/wangqishen/Library/Application Support/typora-user-images/Screen Shot 2022-04-12 at 5.23.16 PM.png)
-4. Here is our test result. ![Screen Shot 2022-04-12 at 5.35.13 PM](/Users/wangqishen/Desktop/Screen Shot 2022-04-12 at 5.35.13 PM.png)
+3. Run "locust". Once you’ve started Locust, open up a browser and point it to [http://localhost:8089](http://localhost:8089/). You will be greeted with something like this:
+
+<img width="691" alt="Screen Shot 2022-04-12 at 10 03 08 PM" src="https://user-images.githubusercontent.com/71869002/163085004-b9e39bd8-e1e2-4073-90b7-9b4235348b96.png">
+
+4. Here is our test result. 
+   <img width="1280" alt="Screen Shot 2022-04-12 at 5 35 13 PM" src="https://user-images.githubusercontent.com/71869002/163085022-138f68e1-67b4-47d4-bae7-7f944a6d6e1c.png">
